@@ -17,14 +17,15 @@ body {
 
 #instru {
     display: block;    
-    width: 70%;
+    width:75%;
     padding: 15px;
     margin: auto;
     margin-top: 60px;
     background-color: #FFD3B1;
-    border: 20px solid #BE2801;
+    border: 25px solid #BE2801;
     text-align: center;
     font-family: 'pixel', 'Courier New', Courier, monospace;
+    font-size: 11pt;
 }
 
 #instru h1 {
@@ -44,7 +45,7 @@ body {
     outline: 50px solid black;
     border-radius: 1px 1px 100px 1px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 60px;
     width: 60%;
     height: 400px;
     overflow: hidden;
