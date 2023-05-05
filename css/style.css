@@ -29,14 +29,29 @@ body {
 }
 
 #instru h1 {
-    padding-bottom: 20px;
-
+    padding-bottom: 15px;
 }
 
 #instru ul {
     list-style-position: inside;
     list-style-type: square;
     line-height: 2;
+}
+
+#instru p {
+    padding-top: 20px;
+    color: #BE2801;
+    font-size: 8pt;
+}
+
+#instru>p>a {
+    color: #9b2103;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#instru a:hover {
+    color: black;
 }
 
 /*Overflow hidden esconde os elementos que começam e terminam fora do game-board*/
@@ -47,20 +62,20 @@ body {
     margin: 0 auto;
     margin-top: 60px;
     width: 60%;
-    height: 400px;
+    height: 380px;
     overflow: hidden;
     background: linear-gradient(to bottom, #87CEEB, #E0F6FF);
 }
 
 #decor {
     width: 100%;
-    height: 400px;
+    height: 380px;
     border-bottom: 25px solid #007A04; 
 }
 
 .nuvens {
     position: absolute;
-    width: 400px;
+    width: 350px;
     animation: clouds-animation 10s infinite linear;
 }
 
