@@ -7,12 +7,12 @@ const jump = () => {
     //mario + método add vinculando jump
     mario.classList.add('jump');
 
-    //Tempo da ação setTimeout (função, tempo 550ms)
+    //Tempo da ação setTimeout (função, tempo 700ms)
     setTimeout(() => {
         //Parar de pular, remover jump do mario
         mario.classList.remove('jump')
 
-    }, 550);
+    }, 700);
 }
 
 

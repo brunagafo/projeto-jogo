@@ -12,20 +12,22 @@
 }
 
 body {
-    background-color: #f9e3d1;
+    background-color: #87cfeb8e;
 }
 
 #instru {
     display: block;    
-    width:75%;
+    width:80%;
     padding: 15px;
     margin: auto;
     margin-top: 60px;
-    background-color: #FFD3B1;
-    border: 25px solid #BE2801;
+    border: 20px solid #BE2801;
+    border-radius: 10px;
+    background-color: #ffd3b1;
     text-align: center;
     font-family: 'pixel', 'Courier New', Courier, monospace;
     font-size: 11pt;
+    color: #BE2801;
 }
 
 #instru h1 {
@@ -40,24 +42,24 @@ body {
 
 #instru p {
     padding-top: 20px;
-    color: #BE2801;
     font-size: 8pt;
+    line-height: 1.6;
 }
 
 #instru>p>a {
-    color: #9b2103;
+    color: #BE2801;
     font-weight: bold;
     text-decoration: none;
 }
 
 #instru a:hover {
-    color: black;
+    color: #be27019f;
 }
 
 /*Overflow hidden esconde os elementos que começam e terminam fora do game-board*/
 .game-board {    
     position: relative;    
-    outline: 50px solid black;
+    outline: 50px solid #0143beb7;
     border-radius: 1px 1px 100px 1px;
     margin: 0 auto;
     margin-top: 60px;
@@ -95,7 +97,7 @@ body {
 }
 
 .jump {
-    animation: jump 550ms infinite ease-out;
+    animation: jump 700ms infinite ease-out;
 }
 
 @keyframes pipe-animation {
