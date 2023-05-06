@@ -17,10 +17,10 @@ body {
 
 #instru {
     display: block;    
-    width:80%;
-    padding: 15px;
+    width:75%;
+    padding: 10px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 55px;
     border: 20px solid #BE2801;
     border-radius: 10px;
     background-color: #ffd3b1;
@@ -32,6 +32,7 @@ body {
 
 #instru h1 {
     padding-bottom: 15px;
+    font-size: 18pt;
 }
 
 #instru ul {
@@ -59,10 +60,10 @@ body {
 /*Overflow hidden esconde os elementos que começam e terminam fora do game-board*/
 .game-board {    
     position: relative;    
-    outline: 50px solid #0143beb7;
+    outline: 40px solid #0143beb7;
     border-radius: 1px 1px 100px 1px;
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 50px;
     width: 60%;
     height: 380px;
     overflow: hidden;
@@ -123,7 +124,7 @@ body {
 @keyframes jump {
     /* PULO DO MARIO
       início - 0px
-      meio - 150px
+      meio - 160px
       fim - 0px*/
 
     0% {
@@ -131,13 +132,13 @@ body {
     }
     /* DURAÇÃO DO PULO*/
     40% {
-        bottom: 150px;
+        bottom: 160px;
     }
     50% {
-        bottom: 150px;
+        bottom: 160px;
     }
     60% {
-        bottom: 150px;
+        bottom: 160px;
     }
     /* FIM DURAÇÃO*/
     100% {
